@@ -74,6 +74,7 @@ install(DIRECTORY include/
 # Install python scripts
 install(PROGRAMS 
   scripts/teleop.py
+  scripts/trial_pub.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
